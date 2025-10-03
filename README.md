@@ -1,4 +1,3 @@
-
 # Leveraging LLM-Generated Embeddings for Topic Modeling and Survival Analysis of Obstructive Sleep Apnea Patients
 
 **Summer 2024 Research Project**  
@@ -16,32 +15,32 @@ This repository contains **only** the research poster and presentation materials
 
 ## Overview
 
-This repository contains the poster and presentation materials from my summer internship research project at Lawrence Berkeley National Laboratory. The work focuses on analyzing clinical narratives from Obstructive Sleep Apnea (OSA) patients using advanced topic modeling techniques and survival analysis [1].
+This repository contains the poster and presentation materials from my summer internship research project at Lawrence Berkeley National Laboratory. The work focuses on analyzing clinical narratives from Obstructive Sleep Apnea (OSA) patients using advanced topic modeling techniques and survival analysis .
 
 ## Research Summary
 
 ### Background
-Obstructive Sleep Apnea (OSA) is a prevalent sleep disorder affecting breathing during sleep and leading to severe health issues like cardiovascular disease and hypertension [1]. This study leveraged the MIMIC-IV database to analyze clinical narratives from discharge notes of OSA patients [1].
+Obstructive Sleep Apnea (OSA) is a prevalent sleep disorder affecting breathing during sleep and leading to severe health issues like cardiovascular disease and hypertension . This study leveraged the MIMIC-IV database to analyze clinical narratives from discharge notes of OSA patients .
 
 ### Methodology
-- **Dataset**: 51,865 clinical notes from 14,915 OSA patients (8,918 male, 5,997 female) [1]
+- **Dataset**: 51,865 clinical notes from 14,915 OSA patients (8,918 male, 5,997 female) 
 - **Computational Resources**: Utilized the Perlmutter supercomputer for large-scale data processing
-- **Topic Modeling**: Applied BERTopic with GatorTron embeddings for clinical text analysis [1]
-- **Analysis Techniques**: Combined topic modeling with Kaplan-Meier survival analysis [1]
+- **Topic Modeling**: Applied BERTopic with GatorTron embeddings for clinical text analysis 
+- **Analysis Techniques**: Combined topic modeling with Kaplan-Meier survival analysis 
 
 ### Key Findings
-- **Topic Identification**: Initially identified 350 topics, refined to 166 distinct categories through hierarchical clustering [1]
+- **Topic Identification**: Initially identified 350 topics, refined to 166 distinct categories through hierarchical clustering 
 - **Clinical Themes**: Identified key themes including:
   - Neurological symptoms
   - Cardiac issues  
   - Surgical procedures
   - Psychiatric concerns
-  - Dehydration symptoms [1]
-- **Temporal Analysis**: Revealed evolution of clinical themes from 1987 to 2012, showing increased focus on cardiovascular complications [1]
-- **Survival Analysis**: Different clinical themes showed varying impacts on patient survival rates over 12 years [1]
+  - Dehydration symptoms 
+- **Temporal Analysis**: Revealed evolution of clinical themes from 1987 to 2012, showing increased focus on cardiovascular complications 
+- **Survival Analysis**: Different clinical themes showed varying impacts on patient survival rates over 12 years 
 
 ### Research Hypothesis
-Advanced topic modeling using Large Language Models, combined with survival analysis, can uncover critical clinical themes and significant factors that affect patient outcomes in OSA management [1].
+Advanced topic modeling using Large Language Models, combined with survival analysis, can uncover critical clinical themes and significant factors that affect patient outcomes in OSA management .
 
 ## Repository Contents
 
@@ -71,7 +70,7 @@ This work provides novel insights into OSA management and identifies significant
 - **Institution**: Lawrence Berkeley National Laboratory, Applied Mathematics and Computational Research Division
 - **Computational Resources**: Perlmutter supercomputer
 - **Database**: MIMIC-IV clinical database
-- **Collaborator**: Destinee Morrow, Lawrence Berkeley National Laboratory [1]
+- **Collaborator**: Destinee Morrow, Lawrence Berkeley National Laboratory 
 
 ---
 
